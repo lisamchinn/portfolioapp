@@ -1,24 +1,24 @@
 .navbar-logo {
-  width: 50px;
-  height: 50px;
+  width: 90px;
+  height: 90px;
   display: block;
   overflow: visible;
   border: 5px solid #494c4e;
   transform: rotate(0deg);
   transition: transform .4s ease-in-out;
   flex-shrink: 0;
-}
-
-.navbar-logo a {
-  color: #494c4e;
-  text-decoration: none;
-  margin-bottom: 1.25em;
-  font-weight: 700;
   &:hover {
     opacity: 1;
     transform: rotate(-90deg);
     transition: transform .4s ease-in-out;
   }
+}
+
+.navbar-logo a {
+  color: #494c4e;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 36px;
 }
 
 .navbar-portfolio {
