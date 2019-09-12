@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Cabin:400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
     <title>Portfolioapp</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -10,6 +17,10 @@
   </head>
 
   <body>
+    <%= render 'components/navbar' %>
     <%= yield %>
+    <%= yield :stylesheets %>
+    <%= render 'components/footer' %>
+    <%= javascript_include_tag 'application' %>
   </body>
 </html>
