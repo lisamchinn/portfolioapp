@@ -2,3 +2,40 @@
   width: 460.2px;
   height: 610.2px;
 }
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+#footer {
+  font-size: 20px;
+  font-family: Helvetica;
+  text-align: center;
+  padding: 20px;
+}
+
+#footer a {
+  font-size: 36px;
+  margin: 10px;
+}
+
+#footer a:hover {
+  color: #22C997;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+#footer li {
+  padding-left: 0;
+  padding-inline-start: 0px;
+  display: inline;
+}
