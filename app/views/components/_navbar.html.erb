@@ -1,21 +1,17 @@
-
-<div class="navbar navbar-expand-sm navbar-portfolio mb-5">
-
-  <div class="navbar-logo ml-5 mt-5">
-    <%= link_to "LC", root_path, class:"px-3" %>
+<div class="container-large navbar navbar-expand-sm navbar-light navbar-lewagon mt-3 mb-5">
+  <div class="navbar-brand">
+    <%= link_to "LC", root_path %>
   </div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <%= link_to("Projects", "#", class:"nav-link nav-gray") %>
+      <li class="nav-item">
+        <%= link_to("Projects", "#", class:"nav-link") %>
       </li>
-
     </ul>
   </div>
 </div>
-
-<!--
-     <li class="nav-item">
-         link_to "Blog", "#", class: "nav-link" %>
-      </li> -->
