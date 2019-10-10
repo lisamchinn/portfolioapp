@@ -30,3 +30,9 @@
   flex-grow: 0;
 }
 
+.nav-gray {
+  color: rgba(0,0,0,.6);
+  &:hover {
+    color: rgba(0,0,0,.9);
+  }
+}
