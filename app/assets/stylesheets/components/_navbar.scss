@@ -1,24 +1,6 @@
-// .navbar-logo {
-//   width: 90px;
-//   height: 90px;
-//   display: block;
-//   overflow: visible;
-//   border: 2px solid #494c4e;
-//   transform: rotate(0deg);
-//   transition: transform .4s ease-in-out;
-//   flex-shrink: 0;
-//   &:hover {
-//     opacity: 1;
-//     transform: rotate(-90deg);
-//     transition: transform .4s ease-in-out;
-//   }
-// }
-
-.navbar-logo a {
-  color: #494c4e;
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 36px;
+.container-large {
+  width: 90%;
+  margin: 0px auto;
 }
 
 .navbar-portfolio {
@@ -28,31 +10,6 @@
 
 .navbar-portfolio .navbar-collapse {
   flex-grow: 0;
-}
-
-// .nav-gray {
-//   color: rgba(0,0,0,.6);
-//   &:hover {
-//     color: rgba(0,0,0,.9);
-//   }
-// }
-
-.navbar-lewagon {
-  justify-content: space-between;
-  background: white;
-}
-
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
-}
-
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
-}
-
-.container-large {
-  width: 90%;
-  margin: 0px auto;
 }
 
 .navbar-brand a {
