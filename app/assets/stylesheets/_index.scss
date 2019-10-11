@@ -25,6 +25,13 @@
   margin-top: 80px;
 }
 
+.image-hover {
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.7) 1px 5px 16px;
+    text-decoration: none;
+  }
+}
+
 // .list-inline {
 //   list-style: none;
 //   padding-left: 0px;
