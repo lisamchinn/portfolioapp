@@ -1,5 +1,5 @@
-.section-two {
-  margin-top: 80px;
+#section-two {
+  padding-top: 80px;
 }
 
 .section-header {
@@ -12,8 +12,8 @@
 }
 
 .lisa-image img {
-  width: 240px;
-  height: 240px;
+  width: 280px;
+  height: 280px;
   margin-right: 50px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.3);
   border: white 5px solid;
@@ -30,7 +30,7 @@
   }
   a {
     color: rgba(200, 214, 246, 1.0);
-    font-size: 30px;
+    font-size: 24px;
   }
 }
 
