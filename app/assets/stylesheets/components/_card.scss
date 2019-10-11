@@ -7,24 +7,57 @@
 .card {
   border-radius: 3px;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
-  font-size: 22px;
-  color: black;
-  font-weight: bolder;
-  // text-shadow: 0 0 10px rgba(0,0,0,0.7);
   margin: 15px 10px;
-  height: 350px;
+  height: 400px;
 }
 
 .card-image {
-  background-size: cover;
-  background-position: center;
   object-fit: cover;
-  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 60%;
   width: 100%;
   margin: 0;
   padding: 0;
 }
 
+.card-info {
+  text-align: center;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  p {
+    font-size: 12px;
+    margin: 10px 10px 20px 10px;
+  }
+}
+
+.card-github {
+  font-size: 14px;
+  text-decoration: none;
+  color: #999999;
+  transition: color 250ms ease-out;
+  transform: translateX(-50%);
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  &:hover {
+    text-decoration: none;
+    color: #fc5d76;
+  }
+}
+
+.card-link {
+  font-size: 18px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 15px;
+  font-weight: 300;
+  color: black;
+  &:hover {
+    text-decoration: underline;
+    color: black;
+  }
+}
 
 @media(max-width: 1200px) {
   .cards {
