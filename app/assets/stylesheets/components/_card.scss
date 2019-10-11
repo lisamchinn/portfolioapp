@@ -1,0 +1,81 @@
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  flex-grow: 1;
+}
+
+.card {
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  margin: 15px 10px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.card-image {
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 60%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  // cursor: pointer;
+}
+
+.card-info {
+  text-align: center;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  height: 40%;
+  p {
+    font-size: 12px;
+    margin: 10px 10px 20px 10px;
+  }
+}
+
+.card-github {
+  font-size: 14px;
+  text-decoration: none;
+  color: #999999;
+  transition: color 250ms ease-out;
+  transform: translateX(-50%);
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  &:hover {
+    text-decoration: none;
+    color: #fc5d76;
+  }
+}
+
+.card-link {
+  font-size: 18px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 15px;
+  font-weight: 300;
+  color: #222222;
+  &:hover {
+    text-decoration: underline;
+    color: #222222;
+  }
+}
+
+@media(max-width: 1200px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media(max-width: 992px) {
+  .cards {
+    grid-template-columns: 1fr 1fr ;
+  }
+}
+
+@media(max-width: 768px) {
+  .cards {
+    grid-template-columns: 1fr ;
+  }
+}

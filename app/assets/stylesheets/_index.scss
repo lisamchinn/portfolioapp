@@ -1,6 +1,25 @@
-.section-one img {
-  width: 320px;
-  height: 320px;
+#section-two {
+  padding-top: 80px;
+}
+
+.section-header {
+  text-align: center;
+  h4 {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 30px;
+  }
+}
+
+.about-me {
+  h1 {
+    font-size: 36px;
+  }
+}
+
+.lisa-image img {
+  width: 280px;
+  height: 280px;
   margin-right: 50px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.3);
   border: white 5px solid;
@@ -17,7 +36,15 @@
   }
   a {
     color: rgba(200, 214, 246, 1.0);
-    font-size: 30px;
+    font-size: 24px;
+    margin-right: 10px;
+  }
+}
+
+.image-hover {
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.7) 1px 5px 16px;
+    text-decoration: none;
   }
 }
 
