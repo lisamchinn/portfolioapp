@@ -4,11 +4,11 @@
   flex-grow: 1;
 }
 
-.card {
+.card-site {
   border-radius: 3px;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
   margin: 15px 10px;
-  height: 400px;
+  height: 455px;
   overflow: hidden;
 }
 
@@ -41,8 +41,8 @@
   color: #999999;
   transition: color 250ms ease-out;
   transform: translateX(-50%);
-  margin-bottom: 20px;
-  padding-bottom: 20px;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
   &:hover {
     text-decoration: none;
     color: #fc5d76;
